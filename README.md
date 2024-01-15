@@ -21,4 +21,5 @@ Commands to deactivate the environment:
 ```
 cd myenv\Scripts
 deactivate.bat
+cd ..\..
 ```
