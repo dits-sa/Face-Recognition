@@ -19,7 +19,7 @@ tab1, tab2 = st.tabs(["Registered Data", "Logs"])
 
 with tab1:
     if st.button("Refresh Data"):
-        with st.spinner("Retrieving Data from Redis DB..."):
+        with st.spinner("Retrieving Data from DB..."):
             redis_face_db = face_rec.retrieve_data(name="academy:register")
             st.dataframe(redis_face_db[["Name", "Role"]])
 
