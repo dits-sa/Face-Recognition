@@ -3,7 +3,7 @@ Commands to create and activate the environment and to install all the dependenc
 python -m venv myenv
 cd myenv\Scripts
 activate
-pip install -r .\requirements.txt
+pip install -r requirements.txt
 cd ..\..
 ```
 
