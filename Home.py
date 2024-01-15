@@ -8,4 +8,4 @@ with st.spinner("Loading Models and Connecting to DB..."):
     import face_rec
 
 st.success("Model Loaded successfully")
-st.success("Redis db successfully connected")
+st.success("DB successfully connected")
