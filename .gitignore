@@ -2,5 +2,5 @@
 /myenv
 /__pycache__
 /templates
-/streamlit_app.py
-/flask_app.py
+streamlit_app.py
+flask_app.py
