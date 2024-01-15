@@ -6,7 +6,7 @@ cd ..\..
 streamlit run Home.py
 ```
 
-Exit the server by pressing CTRL-c
+Exit the server by pressing CTRL-C
 
 Commands to deactivate the environment:
 ```
