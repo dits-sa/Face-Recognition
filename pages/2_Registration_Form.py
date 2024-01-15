@@ -30,9 +30,9 @@ def video_callback_func(frame):
 
 
 webrtc_streamer(key="realtimePrediction",
-                rtc_configuration={  # Add this config
-                    "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
-                },
+                # rtc_configuration={  # Add this config
+                #     "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
+                # },
                 media_stream_constraints={
                     "video": True,
                     "audio": False
@@ -47,5 +47,5 @@ if st.button("Submit"):
     elif return_val == "name_false":
         st.error("Please enter the name: Name cannot be empty or spaces")
     elif return_val == "file_false":
-        st.error("face_embedding.txt is not found. Please refresh the page and execute again")
+        st.error("face_embedding feed not found. Please refresh the page and execute again")
 

@@ -39,9 +39,9 @@ def video_frame_callback(frame):
 
 
 webrtc_streamer(key="realtimePrediction",
-                rtc_configuration={  # Add this config
-                    "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
-                },
+                # rtc_configuration={  # Add this config
+                #     "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
+                # },
                 media_stream_constraints={
                     "video": True,
                     "audio": False
